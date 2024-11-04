@@ -1,0 +1,91 @@
+.bg1{
+background-color: black !important;
+}
+
+.bg2{
+    height: 500px !important;
+}
+
+.cr{
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/jennifer-marquez-LxhDFiKdu7k-unsplash.jpg');
+    background-size: cover;
+}
+
+.cr1{
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/rick-govic-ihFOS8JeIfo-unsplash.jpg');
+    background-size: cover;
+}
+
+.cr2{
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/simeon-asenov-uTD3RY96qNw-unsplash.jpg');
+    background-size: cover;
+}
+
+.bg-3{
+    background-color: palevioletred;
+    color: white;
+}
+
+.ch{
+    font-size: 40px;
+    text-decoration-style: dotted;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.mh{
+    font-size: 70px;
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-shadow{
+    text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.line-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+.line-text hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #000; /* Line color */
+    margin: 0 10px;
+  }
+
+.line-text span {
+    white-space: nowrap; /* Prevents the text from breaking */
+  }
+
+
+.display-none{
+    display: none;
+}
+
+.card{
+    transition: 0.5s ease-in-out;
+}
+
+.card .mybtn{
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.1)
+}
+.card:hover button{
+    display: block;
+}
